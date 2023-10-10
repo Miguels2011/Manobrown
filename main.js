@@ -46,25 +46,25 @@ function myKeyDown(e)
 {
 	keyPressed = e.keyCode;
 	console.log(keyPressed);
-		if(keyPressed == '38')
+		if(keyPressed == '87')
 		{
 			up();
 			console.log("up");
 		}
 	
-		if(keyPressed == '40')
+		if(keyPressed == '83')
 		{
 			down();
 			console.log("down");
 		}
 		
-		if(keyPressed == '37')
+		if(keyPressed == '65')
 		{
 			left();
 			console.log("left");
 		}
 	
-		if(keyPressed == '39')
+		if(keyPressed == '68')
 		{
 			right();
 			console.log("right");
